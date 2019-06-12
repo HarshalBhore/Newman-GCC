@@ -1,0 +1,17 @@
+{
+  "name": "postamn-newman-github-gcc",
+  "version": "1.0.0",
+  "description": "Project for storing postman tests",
+  
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "api-test-production": "newman run tests/JSONplaceholder.com.postman_collection.json"
+  },
+  "author": "Harshal Bhore",
+  
+  "dependencies": {
+    "newman": "^4.5.0"
+  }
+}
